@@ -1,0 +1,58 @@
+{
+  "source": "E:\\anaconda\\envs\\fs-core\\src\\data\\origin\\slashdot.txt",
+  "source_sha256": "093f49f5961070c2bf323b347b44b92c666d6394bacbcd25112f1c84b24b2e3d",
+  "source_header": [
+    6,
+    51083,
+    51083
+  ],
+  "source_rows": 139788,
+  "union_vertices": 51083,
+  "union_edges": 116573,
+  "full_dataset": true,
+  "clients": [
+    {
+      "pid": 1,
+      "vertices": 17764,
+      "edges": 30610,
+      "file": "E:\\anaconda\\envs\\fs-core\\src\\FedCS\\private_build\\client1\\slashdot.txt",
+      "sha256": "01c516a60ba5fab8cd65ca4ee94a8513e778b5de4a2a62a8c06d4633cc43c120"
+    },
+    {
+      "pid": 2,
+      "vertices": 7436,
+      "edges": 11255,
+      "file": "E:\\anaconda\\envs\\fs-core\\src\\FedCS\\private_build\\client2\\slashdot.txt",
+      "sha256": "791eeda4f0b54c4c3a41b0b7e1f63f7352a4ae9b84991aecde55a8563ec92a3a"
+    },
+    {
+      "pid": 3,
+      "vertices": 17498,
+      "edges": 32439,
+      "file": "E:\\anaconda\\envs\\fs-core\\src\\FedCS\\private_build\\client3\\slashdot.txt",
+      "sha256": "cc091efc8f93424127e5250493accd261db4ba0f3d6fc43c104d1d2f45c8c707"
+    },
+    {
+      "pid": 4,
+      "vertices": 97,
+      "edges": 54,
+      "file": "E:\\anaconda\\envs\\fs-core\\src\\FedCS\\private_build\\client4\\slashdot.txt",
+      "sha256": "dc4671be785434c801c61c1e29f901251529ca6facbdf6dfb5470ac371264ad8"
+    },
+    {
+      "pid": 5,
+      "vertices": 15755,
+      "edges": 28695,
+      "file": "E:\\anaconda\\envs\\fs-core\\src\\FedCS\\private_build\\client5\\slashdot.txt",
+      "sha256": "0cf7de7bde02281100fb05de4cf0e516495e0cf23532ca3f2603c87668261201"
+    },
+    {
+      "pid": 6,
+      "vertices": 8782,
+      "edges": 14137,
+      "file": "E:\\anaconda\\envs\\fs-core\\src\\FedCS\\private_build\\client6\\slashdot.txt",
+      "sha256": "1de225566fa257bebac76125d56a32f15f5187b4c31ec04cb88a6a88e9e9090e"
+    }
+  ],
+  "note": "Trusted PUBLIC-dataset preparation metadata; do not distribute to protocol roles"
+}
