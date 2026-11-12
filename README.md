@@ -1,4 +1,4 @@
-# FedCS
+# FedCS (Global Community Search over Graph Federation)
 
 ## Introduction
 This repository provides **only a simple example using the Slashdot dataset** for **Global Community Search over Graph Federation**, not a complete multi-dataset experimental suite.
@@ -32,7 +32,6 @@ The implementation uses Python and consists of the following modules under `/srv
 The build pipeline is: local graphs -> HMAC tokens -> private alignment -> masked graph aggregation -> GCT -> online queries.
 HMAC tokens are pseudonyms, not reversible encryption. Pairwise masks cancel during aggregation; the coordinator learns the deduplicated topology under global indices and builds and searches the GCT on that topology. TLS encrypts network traffic; this is not encrypted-domain GCT search.
 
-Index maintenance is outside this implementation.
 
 ## Usage
 The following example uses a trusted Linux provisioning machine with the project at `/srv/FedCS`, one coordinator (`10.20.0.10`), and six Linux clients (`10.20.0.11`–`10.20.0.16`); replace these example addresses and use an existing SSH account named `fedcs` on each host.
