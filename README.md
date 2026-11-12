@@ -114,4 +114,3 @@ This research prototype reveals protected-ID global topology to the coordinator 
 + MPyC 0.11
 + cryptography 46.0.3
 + pyroaring 1.0.4
-+ Bash, OpenSSH, synchronized clocks, and private network connectivity among all seven roles
